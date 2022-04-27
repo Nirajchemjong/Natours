@@ -55,6 +55,7 @@ height: 35px;
   
     color: #fff;
     text-transform: uppercase;
+    backface-visibility: hidden;
 
 }
 .heading-primary-main{
@@ -62,6 +63,8 @@ height: 35px;
     font-size: 66px;
     font-weight: 400;
     letter-spacing: 20px;
+    animation-name: MoveInLeft;
+    animation-duration: 1s;
     
 
 }
@@ -70,6 +73,39 @@ height: 35px;
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 14px;
+    animation-name: MoveInRight;
+    animation-duration: 1s;
 
 
+}
+@keyframes MoveInLeft {
+    0% {
+        opacity: 0;
+        transform: translatex(-30px);
+
+    }
+
+    80% {
+        transform: translateX(8px);
+
+    }
+
+    100% {
+        opacity: 1;
+        transform: translatex(0);
+    }
+}
+@keyframes MoveInRight{
+    0%{
+        opacity: 0;
+        transform: translateX(30px);
+
+    }
+    80%{
+        transform: translatex(-8px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
 }
