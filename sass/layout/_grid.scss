@@ -8,11 +8,8 @@
     
     @include clearfix;
     [class^="col-"]{
-        background-color: orangered;
         float:left;
-        height: 4rem;
-        text-align: center;
-        font-size: 1.5rem;
+    
 
         &:not(:last-child){
             margin-right: $gutter-horizontal;
