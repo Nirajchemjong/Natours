@@ -1,0 +1,8 @@
+.story{
+ 
+    background-color: $color-white;
+  &__shape{
+        background-color: red;
+        clip-path: circle(50% of 50%, 50%);
+    }
+}
