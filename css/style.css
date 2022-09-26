@@ -274,6 +274,23 @@ body {
     font-size: 6rem;
     font-weight: 100; }
 
+.book {
+  height: 50rem;
+  margin: 0 auto;
+  border-radius: 3px;
+  box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0.9) 0%, transparent 50%), url(../../img/nat-10.jpg);
+  background-size: 100%; }
+  .book__form {
+    height: 50rem;
+    width: 100%; }
+
+.form {
+  height: 50rem;
+  width: 65%;
+  padding-left: 7rem;
+  padding-top: 10rem; }
+
 .story {
   width: 75%;
   margin: 0 auto;
@@ -449,3 +466,8 @@ body {
 .section-stories {
   padding: 15rem 0;
   position: relative; }
+
+.section--booking {
+  padding: 15rem 0;
+  margin-top: -10rem;
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)); }

@@ -32,3 +32,10 @@
      padding: 15rem 0; 
      position: relative;     
 }
+.section--booking{
+     padding: 15rem 0;
+     margin-top: -10rem;
+     background-image: linear-gradient(to right bottom,
+     rgba($color-primary-light, 0.8),
+     rgba($color-primary-dark, 0.8));
+}
